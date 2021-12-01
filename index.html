@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task list</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="taskManagement">
+            <div class="taskManagement_Heading">
+                <h1 class="taskManagement_Heading-h1">Task list</h1>
+            </div>
+            <div class="taskManagement_form">
+                <div class="taskManagement_form_add">
+                    <input type="text" name="taskName" class="taskManagement_form_add-input" placeholder="Enter text...">
+                    <input type="submit" class="btn taskManagement_form_add-btn" value="ADD TASK">
+                </div>
+                <div class="taskManagement_form_allFlag">
+                    <input type="submit" name="readyAll" class="btn taskManagement_form_btn-ready" value="READY ALL">
+                    <input type="submit" name="removeAll" class="btn taskManagement_form_btn-remove" value="REMOVE ALL">
+                </div>
+            </div>
+        </div>
+
+        <div class="taskContent">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
